@@ -7,9 +7,12 @@ def landing_page():
     return render_template('index.html')
 
 
-
-
-
+@app.route("/dashboard")
+def dashboard():
+    return render_template('ÑAÑAAÑÑAÑAÑAÑAÑÑA.html')
+@app.route("/map")
+def map():
+    return render_template('map.html')
 
 
 if __name__ == '__main__':
